@@ -8,9 +8,10 @@ Add any of the above SVGs in your html and you will be able to see an icon which
 ## Example:
 
 * Adjust the width and height according to your website style.
+* CSS properties `line-height`, `vertical-align`, `position` might be of help.
 
 ```html
-<a href="https://www.stopstalk.com/profile/raj454raj">
+<a href="https://www.stopstalk.com/profile/raj454raj" style="vertical-align: middle;">
   <?xml version="1.0" encoding="UTF-8"?>
   <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
   <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100" height="100" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
@@ -42,3 +43,6 @@ Add any of the above SVGs in your html and you will be able to see an icon which
 
 * You can use the above html in your Static [Github pages](https://help.github.com/en/articles/what-is-github-pages)
 * You can also use the same on your Portfolio website hosted anywhere else
+* Example footer:
+
+![Footer](example.png)
